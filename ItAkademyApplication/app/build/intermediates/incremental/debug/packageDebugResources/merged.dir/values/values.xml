@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_app">#CDDAEA</color>
+    <color name="black">#000000</color>
+    <color name="btn_notify">#FFF5AA</color>
+    <color name="btn_notify_border">#CCC098</color>
+    <color name="text_input">#767676</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">ItAkademyApplication</string>
+    <string name="btn_mess_out">Отправить</string>
+    <string name="btn_text_exit">Выход</string>
+    <string name="btn_text_menu">Меню</string>
+    <string name="btn_text_mess">Чат</string>
+    <string name="btn_text_notify">Уведомления</string>
+    <string name="heading_text">Курс С#</string>
+    <string name="heading_text_chat">Пупкин Василий</string>
+    <string name="img_icone">Иконка</string>
+    <string name="img_table">Таблица</string>
+    <string name="line">Разделитель</string>
+    <string name="name_user1">Пупкин Василий</string>
+    <string name="name_user2">Пупкина Марина</string>
+    <string name="status_user">Педагог</string>
+    <string name="text_date_mess">Сегодня</string>
+    <string name="text_get">Сообщение</string>
+    <string name="text_input">Напишите сообщение...</string>
+    <style name="Base.Theme.ItAkademyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ItAkademyApplication" parent="Base.Theme.ItAkademyApplication"/>
+</resources>
