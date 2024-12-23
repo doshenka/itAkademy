@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/inria_serif"
+        android:text="@string/heading_text"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMenu"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/bg_app"
+        android:contentDescription="@string/btn_text_menu"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNotify"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/bg_app"
+        android:contentDescription="@string/btn_text_notify"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_notify_green"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonMenu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonExit"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/bg_app"
+        android:contentDescription="@string/btn_text_exit"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonNotify"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icone_exit" />
+
+    <ImageView
+        android:id="@+id/imageSchedule"
+        android:layout_width="0dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonExit"
+        app:srcCompat="@drawable/table_raspisanie" />
+
+    <ImageView
+        android:id="@+id/imageUser1"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/bg_app"
+        android:contentDescription="@string/img_icone"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"
+        app:srcCompat="@drawable/icone_user" />
+
+    <TextView
+        android:id="@+id/textType1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/inria_serif"
+        android:text="@string/status_user"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageUser1"
+        app:layout_constraintStart_toEndOf="@+id/imageUser1" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMessNo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/bg_app"
+        android:contentDescription="@string/btn_text_mess"
+        android:scaleType="centerInside"
+        android:src="@drawable/message_base"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+    <ImageView
+        android:id="@+id/imageUser2"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/bg_app"
+        android:contentDescription="@string/img_icone"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/divider3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:srcCompat="@drawable/icone_user" />
+
+    <TextView
+        android:id="@+id/textName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/inria_serif"
+        android:text="@string/name_user1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageUser2"
+        app:layout_constraintTop_toTopOf="@+id/imageUser2" />
+
+    <TextView
+        android:id="@+id/textType2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/inria_serif"
+        android:text="@string/status_user"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageUser2"
+        app:layout_constraintStart_toEndOf="@+id/imageUser2" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMessYes"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/bg_app"
+        android:contentDescription="@string/btn_text_mess"
+        android:onClick="ActivityChat"
+        android:scaleType="centerInside"
+        android:src="@drawable/message_base"
+        app:layout_constraintBottom_toTopOf="@+id/divider3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <TextView
+        android:id="@+id/textName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/inria_serif"
+        android:text="@string/name_user2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageUser1"
+        app:layout_constraintTop_toTopOf="@+id/imageUser1" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/imageProgress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSchedule" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSchedule" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/imageProgress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageProgress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/img_table"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/table_progress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ItAkademyApplication</string>
+    <string name="heading_text">Курс С#</string>
+    <string name="heading_text_chat">Пупкин Василий</string>
+    <string name="btn_text_menu">Меню</string>
+    <string name="btn_text_notify">Уведомления</string>
+    <string name="btn_text_exit">Выход</string>
+    <string name="name_user1">Пупкин Василий</string>
+    <string name="name_user2">Пупкина Марина</string>
+    <string name="status_user">Педагог</string>
+    <string name="btn_text_mess">Чат</string>
+    <string name="text_input">Напишите сообщение...</string>
+    <string name="text_get">Сообщение</string>
+    <string name="text_date_mess">Сегодня</string>
+    <string name="btn_mess_out">Отправить</string>
+    <string name="img_table">Таблица</string>
+    <string name="img_icone">Иконка</string>
+    <string name="line">Разделитель</string>
+</resources>

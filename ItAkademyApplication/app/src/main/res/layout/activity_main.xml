@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/bg_app">
+
+        <TextView
+            android:id="@+id/textLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/inria_serif"
+            android:text="@string/heading_text"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonMenu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/bg_app"
+            android:contentDescription="@string/btn_text_menu"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_menu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonNotify"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toStartOf="@+id/imageButtonMenu"
+            android:background="@color/bg_app"
+            android:contentDescription="@string/btn_text_notify"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_notify_yellow"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonMenu"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButtonExit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toStartOf="@+id/imageButtonNotify"
+            android:background="@color/bg_app"
+            android:contentDescription="@string/btn_text_exit"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonNotify"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icone_exit" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/table_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@color/bg_app"
+        android:layout_below="@id/header">
+
+        <ImageView
+            android:id="@+id/imageSchedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="15dp"
+            android:contentDescription="@string/img_table"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:srcCompat="@drawable/table_raspisanie" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/table_schedule"
+        android:background="@color/bg_app">
+
+        <ImageView
+            android:id="@+id/imageUser1"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/bg_app"
+            android:contentDescription="@string/img_icone"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/icone_user" />
+    </RelativeLayout>
+
+</RelativeLayout>

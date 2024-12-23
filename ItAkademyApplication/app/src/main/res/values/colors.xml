@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_app">#CDDAEA</color>
+    <color name="btn_notify">#FFF5AA</color>
+    <color name="btn_notify_border">#CCC098</color>
+    <color name="text_input">#767676</color>
+</resources>
