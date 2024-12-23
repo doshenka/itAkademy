@@ -1,0 +1,188 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+  <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
+    <mxGraphModel dx="3540" dy="1768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="382b91b5511bd0f7-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="135" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Курс не оплачен&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="10" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-6" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Курс активен&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Курс оплачен&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="500" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3cde6dad864a17aa-13" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="382b91b5511bd0f7-7" target="oNBWx0fiwFMOrfiqa535-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="280" as="sourcePoint" />
+            <mxPoint x="850" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2a3bc250acf0617d-9" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="382b91b5511bd0f7-1" target="382b91b5511bd0f7-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2a3bc250acf0617d-15" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="382b91b5511bd0f7-6" target="382b91b5511bd0f7-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="210" as="sourcePoint" />
+            <mxPoint x="990" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Курс завершен&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Курс доступен&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="840" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Курс недоступен&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-8" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Курс не&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 19px; background-color: initial;&quot;&gt;активен&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-9" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="460" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.434;exitY=1.033;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="382b91b5511bd0f7-6" target="382b91b5511bd0f7-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="238.82" as="sourcePoint" />
+            <mxPoint x="425" y="238.82" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="62" y="350" />
+              <mxPoint x="62" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="382b91b5511bd0f7-5" target="oNBWx0fiwFMOrfiqa535-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="340" as="sourcePoint" />
+            <mxPoint x="725" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-15" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="382b91b5511bd0f7-7" target="oNBWx0fiwFMOrfiqa535-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="130" as="sourcePoint" />
+            <mxPoint x="345" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oNBWx0fiwFMOrfiqa535-8" target="oNBWx0fiwFMOrfiqa535-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="289.41" as="sourcePoint" />
+            <mxPoint x="730" y="289.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-17" style="edgeStyle=elbowEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oNBWx0fiwFMOrfiqa535-4" target="oNBWx0fiwFMOrfiqa535-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="49.41" as="sourcePoint" />
+            <mxPoint x="770" y="49.41" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-19" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oNBWx0fiwFMOrfiqa535-8" target="oNBWx0fiwFMOrfiqa535-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="350" as="sourcePoint" />
+            <mxPoint x="910" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="oNBWx0fiwFMOrfiqa535-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-85" y="150" as="sourcePoint" />
+            <mxPoint x="265.135135135135" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Trigger: Курс существует. Менеджер сделал курс активным.&lt;br&gt;Condition: Курс стал активным&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-20" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-24" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Trigger: Прошла оплата у Ученика за курс&lt;br&gt;Condition: Курс оплачен&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-20" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.585;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="oNBWx0fiwFMOrfiqa535-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="150" as="sourcePoint" />
+            <mxPoint x="570" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Trigger: Педагогом одобрены все решения заданий на курсе&lt;br&gt;Condition: Курс завершен&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-190" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-27" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.437;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="oNBWx0fiwFMOrfiqa535-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="40" as="sourcePoint" />
+            <mxPoint x="368" y="71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-28" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Trigger: Курс завершен Учеником и активен в приложении. Курс в статусе Активен.&lt;br&gt;Condition: Курс доступен&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-270" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="oNBWx0fiwFMOrfiqa535-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="-80" as="sourcePoint" />
+            <mxPoint x="268" y="-92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Trigger: Оплата не прошла у Ученика за курс&lt;br&gt;Condition: Курс не оплачен&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="250" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0;entryDx=320;entryDy=60;entryPerimeter=0;" edge="1" parent="1" target="oNBWx0fiwFMOrfiqa535-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="310" as="sourcePoint" />
+            <mxPoint x="306" y="81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-32" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Trigger: Менеджер не открыл доступ к курсу&lt;br&gt;Condition: Курс не доступен&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.431;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="oNBWx0fiwFMOrfiqa535-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="420" as="sourcePoint" />
+            <mxPoint x="250" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-34" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Trigger: Менеджер открыл доступ к курсу. Курс в статусе Активен.&lt;br&gt;Condition: Курс доступен&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="oNBWx0fiwFMOrfiqa535-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="150" as="sourcePoint" />
+            <mxPoint x="730" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0;entryDx=320;entryDy=60;entryPerimeter=0;" edge="1" parent="1" target="oNBWx0fiwFMOrfiqa535-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="260" as="sourcePoint" />
+            <mxPoint x="238" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Trigger: Менеджер удалил или архивировал курс.&lt;br&gt;Condition: Курс не доступен&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.478;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oNBWx0fiwFMOrfiqa535-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="160" as="sourcePoint" />
+            <mxPoint x="603" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-43" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.45;exitY=1.067;entryX=0.5;entryY=0;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="382b91b5511bd0f7-7" target="oNBWx0fiwFMOrfiqa535-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="430" as="sourcePoint" />
+            <mxPoint x="390" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-44" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Trigger: Менеджер удалил или архивировал курс. Курса не существует.&lt;br&gt;Condition: Курс не активен&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="930" y="220" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oNBWx0fiwFMOrfiqa535-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.432;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oNBWx0fiwFMOrfiqa535-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="160" as="sourcePoint" />
+            <mxPoint x="900" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
